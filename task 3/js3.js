@@ -19,20 +19,20 @@ function getEvenSum(val){
     let result = 0;
     while (i <= val){
         if(i % 2 === 0){
-            result += 1;
+            result += i;
         }
         i++
     }
-    return evenSum
+    return result
 }
 function getOddSum(val){
     let i = 0;
     let result = 0;
     while (i <= val){
         if(i % 2 === 1){
-            result += 1;
+            result += i;
         }
         i++
     }
-    return oddSum
+    return result
 }
