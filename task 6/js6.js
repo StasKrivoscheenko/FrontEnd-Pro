@@ -20,6 +20,3 @@ const students = [
         marks: [10, 9, 8, 9 ]
     }
 ]
-function calculateStudentAverageMark(student){
-let averages = students.map(item => item.marks)
-}
