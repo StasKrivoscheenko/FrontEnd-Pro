@@ -1,0 +1,13 @@
+body{
+    background-color: red;
+}
+.block{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    margin-top: 25px;
+}
+.section-1{
+    text-align: center;
+}
