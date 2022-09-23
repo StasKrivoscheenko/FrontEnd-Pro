@@ -1,0 +1,36 @@
+.block{
+    width: 700px;
+    height: 800px;
+    border:1px solid black;
+    border-radius:20px;
+    padding: 5px 10px;
+    text-align: center;
+    word-wrap: break-word;
+    background-color: cornsilk;
+}
+.section-1{
+    text-align: center;
+
+}
+.center{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.button{
+    padding: 10px 20px 10px 20px;
+}
+.field{
+    padding: 10px 20px 10px 20px;
+    width: 430px;
+}
+.decor{
+    list-style-type: decimal;
+    font-size: 30px;
+    user-select: none;
+    color: red;
+}
+.line-through{
+    text-decoration: line-through;
+    color: green;
+}
