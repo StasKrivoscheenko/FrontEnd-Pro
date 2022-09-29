@@ -1,15 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="style10.css">
-    <script src="../task 10/js10.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../task 10/normalize.css"/>
+    <link rel="stylesheet" href="../task 10/skeleton.css"/>
+    <link rel="stylesheet" href="../task 10/style10.css"/>
+    <script src="../task 10/js10.js" defer></script>
+    <title>Contacts</title>
 </head>
 <body>
-
+    <div class="container">
+        <div class="row">
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Phone</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="contactsList"></tbody>
+        <tfoot>
+            <tr>
+                <td><input placeholder="Name" type="text" id="name"></td>
+                <td><input placeholder="Surname" type="text" id="surname"></td>
+                <td><input placeholder="Phone" type="text" id="phone"></td>
+                <td><button id="addContactBtn">Add</button></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+</div>
 </body>
 </html>
