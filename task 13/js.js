@@ -5,12 +5,15 @@ function Hamburger(size) {
     this._callories = size.callories;
 }
 
-Hamburger.SMALL_SIZE = { label: 'Small size', price: 50, callories: 100 };
-Hamburger.BIG_SIZE = { label: 'Big size', price: 100, callories: 200 };
+Hamburger.SMALL_SIZE = { label: 'Small size', price: 50, callories: 20 };
+Hamburger.MEDIUM_SIZE = { label: 'Medium size', price: 75, callories: 30 };
+Hamburger.BIG_SIZE = { label: 'Big size', price: 100, callories: 40 };
 
-Hamburger.TOPPING_MAYO = { label: 'Mayo', price: 60, callories: 2000 };
-Hamburger.TOPPING_KETCHUP = { label: 'Ketchup', price: 40, callories: 200 };
-Hamburger.TOPPING_CHEESE = { label: 'Cheese', price: 100, callories: 50 };
+Hamburger.TOPPING_MAYO = { label: 'Mayo', price: 20, callories: 5 };
+Hamburger.TOPPING_POTATO = { label: 'Potato', price: 15, callories: 10 };
+Hamburger.TOPPING_CHEESE = { label: 'Cheese', price: 10, callories: 20 };
+Hamburger.TOPPING_SALAD = { label: 'SALAD', price: 20, callories: 5 };
+Hamburger.TOPPING_SEASONING = { label: 'Seasoning', price: 15, callories: 0 };
 
 Hamburger.prototype.addTopping = function (topping) {
     this._toppings.push(topping);
