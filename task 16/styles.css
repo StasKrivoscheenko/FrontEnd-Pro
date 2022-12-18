@@ -1,0 +1,11 @@
+.highlighted {
+    background-color: green;
+    color: blue;
+  }
+  
+  input.invalid-input {
+    background-color: red
+  }
+  .hidden {
+    display: none;
+  }
